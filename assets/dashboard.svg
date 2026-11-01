@@ -1,0 +1,61 @@
+<svg width="860" height="256" viewBox="0 0 860 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left Card: Technical Stack & Proficiency Bars -->
+  <rect x="0.5" y="0.5" width="420" height="255" rx="8" fill="#0B0F17" stroke="#1E293B"/>
+  <circle cx="24" cy="26" r="3.5" fill="#10B981"/>
+  <text x="36" y="30" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">TECHNICAL STACK &amp; APPLIED CAPABILITIES</text>
+  <line x1="20" y1="44" x2="400" y2="44" stroke="#1E293B"/>
+
+  <!-- Bar 1 -->
+  <text x="20" y="66" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500">PHP &amp; Laravel (MVC, Eloquent, RBAC)</text>
+  <text x="400" y="66" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" text-anchor="end">Primary</text>
+  <rect x="20" y="73" width="380" height="6" rx="3" fill="#1E293B"/>
+  <rect x="20" y="73" width="334" height="6" rx="3" fill="#10B981"/>
+
+  <!-- Bar 2 -->
+  <text x="20" y="102" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500">SQL &amp; Relational DB (MySQL, MariaDB)</text>
+  <text x="400" y="102" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" text-anchor="end">Primary</text>
+  <rect x="20" y="109" width="380" height="6" rx="3" fill="#1E293B"/>
+  <rect x="20" y="109" width="318" height="6" rx="3" fill="#10B981"/>
+
+  <!-- Bar 3 -->
+  <text x="20" y="138" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500">Java &amp; Kotlin (OOP, Android SDK)</text>
+  <text x="400" y="138" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" text-anchor="end">Applied</text>
+  <rect x="20" y="145" width="380" height="6" rx="3" fill="#1E293B"/>
+  <rect x="20" y="145" width="266" height="6" rx="3" fill="#34D399"/>
+
+  <!-- Bar 4 -->
+  <text x="20" y="174" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500">Python &amp; Analytics (Pandas, Streamlit)</text>
+  <text x="400" y="174" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" text-anchor="end">Applied</text>
+  <rect x="20" y="181" width="380" height="6" rx="3" fill="#1E293B"/>
+  <rect x="20" y="181" width="250" height="6" rx="3" fill="#34D399"/>
+
+  <!-- Bottom Tooling Strip -->
+  <line x1="20" y1="204" x2="400" y2="204" stroke="#1E293B"/>
+  <text x="20" y="224" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">TOOLS &amp; ENV</text>
+  <text x="20" y="241" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">Git · GitHub · Android Studio · VS Code · Composer · Linux</text>
+
+  <!-- Right Card: Engineering Focus & Roadmap -->
+  <rect x="439.5" y="0.5" width="420" height="255" rx="8" fill="#0B0F17" stroke="#1E293B"/>
+  <circle cx="463" cy="26" r="3.5" fill="#10B981"/>
+  <text x="475" y="30" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">ENGINEERING FOCUS &amp; ARCHITECTURE</text>
+  <line x1="459" y1="44" x2="839" y2="44" stroke="#1E293B"/>
+
+  <!-- Focus Item 1 -->
+  <rect x="459" y="58" width="24" height="18" rx="3" fill="#0F2922"/>
+  <text x="471" y="71" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">01</text>
+  <text x="493" y="71" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">Current Build Focus</text>
+  <text x="493" y="90" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.8">Transactional web systems in Laravel &amp; PHP with normalized</text>
+  <text x="493" y="106" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.8">schemas, foreign-key integrity, and role-based access control.</text>
+
+  <!-- Focus Item 2 -->
+  <rect x="459" y="122" width="24" height="18" rx="3" fill="#0F2922"/>
+  <text x="471" y="135" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">02</text>
+  <text x="493" y="135" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">Technical Exploration</text>
+  <text x="493" y="154" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.8">Object-oriented system design in Java &amp; Kotlin alongside</text>
+  <text x="493" y="170" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.8">data transformation &amp; reporting pipelines in Python.</text>
+
+  <!-- Focus Item 3 / Next Milestone -->
+  <line x1="459" y1="204" x2="839" y2="204" stroke="#1E293B"/>
+  <text x="459" y="224" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">NEXT MILESTONES</text>
+  <text x="459" y="241" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">Automated Testing (PHPUnit) · REST APIs · Docker Workflows</text>
+</svg>

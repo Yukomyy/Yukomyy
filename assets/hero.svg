@@ -1,0 +1,93 @@
+<svg width="860" height="310" viewBox="0 0 860 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="subtle-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#161B22" stroke-width="0.75"/>
+    </pattern>
+    <radialGradient id="hero-glow" cx="72%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.11"/>
+      <stop offset="55%" stop-color="#0EA5E9" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#0B0F17" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="emerald-text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Canvas -->
+  <rect x="0.5" y="0.5" width="859" height="309" rx="10" fill="#0B0F17"/>
+  <rect x="0.5" y="0.5" width="859" height="309" rx="10" fill="url(#subtle-grid)"/>
+  <rect x="0.5" y="0.5" width="859" height="309" rx="10" fill="url(#hero-glow)"/>
+  <rect x="0.5" y="0.5" width="859" height="309" rx="10" stroke="#1E293B"/>
+
+  <!-- Top Navigation Header Bar -->
+  <rect x="36" y="22" width="28" height="22" rx="4" fill="#0F2922" stroke="#10B981" stroke-opacity="0.5"/>
+  <text x="50" y="37" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">FI</text>
+  <text x="76" y="37" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="0.5">FAHMI IRFAN</text>
+
+  <text x="824" y="37" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" text-anchor="end" letter-spacing="1">01. PROJECTS   02. DASHBOARD   03. FOCUS   04. CONTACT</text>
+  <line x1="36" y1="56" x2="824" y2="56" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Left Column: Editorial Headline -->
+  <text x="36" y="104" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="-0.8">Building Structured</text>
+  <text x="36" y="142" fill="url(#emerald-text)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="-0.8">Backend &amp; Data</text>
+  <text x="36" y="180" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="-0.8">Systems That Scale.</text>
+
+  <text x="36" y="212" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">Information Systems Undergraduate (D4) at Politeknik STMI Jakarta.</text>
+  <text x="36" y="232" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">Focused on PHP, Laravel, relational database design, and Python analytics.</text>
+
+  <!-- Bottom Left Pills -->
+  <rect x="36" y="254" width="166" height="30" rx="5" fill="#10B981"/>
+  <text x="119" y="273" fill="#062219" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" text-anchor="middle">Selected Engineering Work</text>
+
+  <rect x="214" y="254" width="164" height="30" rx="5" fill="#111827" stroke="#334155"/>
+  <circle cx="230" cy="269" r="3.5" fill="#34D399"/>
+  <text x="302" y="273" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" text-anchor="middle">Jakarta, ID · Open</text>
+
+  <!-- Right Column: Code Editor Window -->
+  <rect x="444" y="76" width="380" height="208" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1.2"/>
+  <path d="M 444 84 C 444 79.58 447.58 76 452 76 L 816 76 C 820.42 76 824 79.58 824 84 L 824 104 L 444 104 Z" fill="#161F33"/>
+  <line x1="444" y1="104" x2="824" y2="104" stroke="#1E293B"/>
+
+  <!-- Window Controls -->
+  <circle cx="462" cy="90" r="4.5" fill="#EF4444" fill-opacity="0.85"/>
+  <circle cx="477" cy="90" r="4.5" fill="#F59E0B" fill-opacity="0.85"/>
+  <circle cx="492" cy="90" r="4.5" fill="#10B981" fill-opacity="0.85"/>
+  <text x="634" y="94" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" text-anchor="middle">DeveloperProfile.php</text>
+
+  <!-- Code Content -->
+  <text x="462" y="126" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">01</text>
+  <text x="488" y="126" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">final class</text>
+  <text x="572" y="126" fill="#F8FAFC" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">FahmiIrfan</text>
+
+  <text x="462" y="146" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">02</text>
+  <text x="488" y="146" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">{</text>
+
+  <text x="462" y="166" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">03</text>
+  <text x="502" y="166" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">public string</text>
+  <text x="600" y="166" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">$degree</text>
+  <text x="656" y="166" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">= 'D4 Info. Systems';</text>
+
+  <text x="462" y="186" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">04</text>
+  <text x="502" y="186" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">public string</text>
+  <text x="600" y="186" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">$campus</text>
+  <text x="656" y="186" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">= 'Politeknik STMI';</text>
+
+  <text x="462" y="206" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">05</text>
+  <text x="502" y="206" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">public array</text>
+  <text x="600" y="206" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">$backend</text>
+  <text x="656" y="206" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">= ['PHP', 'Laravel'];</text>
+
+  <text x="462" y="226" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">06</text>
+  <text x="502" y="226" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">public array</text>
+  <text x="600" y="226" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">$systems</text>
+  <text x="656" y="226" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">= ['Java', 'Python'];</text>
+
+  <text x="462" y="246" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">07</text>
+  <text x="502" y="246" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">public string</text>
+  <text x="600" y="246" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">$data</text>
+  <text x="656" y="246" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">= 'MySQL · Pandas';</text>
+
+  <text x="462" y="266" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">08</text>
+  <text x="488" y="266" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">}</text>
+</svg>
