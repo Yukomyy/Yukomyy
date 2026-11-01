@@ -1,0 +1,28 @@
+<svg width="422" height="230" viewBox="0 0 422 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="421" height="229" rx="8" fill="#0F172A" stroke="#1E293B"/>
+  <line x1="24" y1="0.5" x2="140" y2="0.5" stroke="#10B981" stroke-width="1.5"/>
+
+  <!-- Folder Icon & Index -->
+  <path d="M24 28C24 26.8954 24.8954 26 26 26H33.1716C33.702 26 34.2107 26.2107 34.5858 26.5858L36.4142 28.4142C36.7893 28.7893 37.298 29 37.8284 29H44C45.1046 29 46 29.8954 46 31V41C46 42.1046 45.1046 43 44 43H26C24.8954 43 24 42.1046 24 41V28Z" stroke="#10B981" stroke-width="1.6"/>
+  <text x="58" y="39" fill="#10B981" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="0.8">04 // COMPUTER VISION &amp; QUALITY CONTROL</text>
+
+  <!-- External Link Icon -->
+  <path d="M388 39L398 29M398 29H390M398 29V37" stroke="#64748B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Project Title -->
+  <text x="24" y="74" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700">Welding Defect Detector — CNN</text>
+
+  <!-- Description & Engineering Scope -->
+  <text x="24" y="100" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.2">Automated web-based visual inspection system classifying</text>
+  <text x="24" y="119" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.2">welding surface quality in real time via camera/webcam feed.</text>
+  <text x="24" y="143" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.8">• Multi-class CNN pipeline (Good, Bad, Defect) &amp; confidence</text>
+  <text x="24" y="162" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.8">• Dual input stream support (PC Webcam &amp; Mobile IP Camera)</text>
+
+  <!-- Bottom Tech Stack Strip -->
+  <line x1="24" y1="184" x2="398" y2="184" stroke="#1E293B"/>
+  <text x="24" y="206" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">Python</text>
+  <text x="76" y="206" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">CNN</text>
+  <text x="114" y="206" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">Computer Vision</text>
+  <text x="226" y="206" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">Web UI</text>
+  <text x="398" y="206" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" text-anchor="end">Repository →</text>
+</svg>
