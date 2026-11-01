@@ -1,38 +1,42 @@
-<svg width="840" height="190" viewBox="0 0 840 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="200" viewBox="0 0 860 200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#161B22" stroke-width="1"/>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#161B22" stroke-width="0.75"/>
     </pattern>
-    <radialGradient id="glow" cx="85%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#1F2937" stop-opacity="0.55"/>
+    <radialGradient id="emerald-glow" cx="88%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.12"/>
+      <stop offset="60%" stop-color="#0D1117" stop-opacity="0.03"/>
       <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="border-grad" x1="0" y1="0" x2="840" y2="190" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#30363D"/>
-      <stop offset="50%" stop-color="#21262D"/>
-      <stop offset="100%" stop-color="#30363D"/>
+    <linearGradient id="top-accent" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#21262D"/>
+      <stop offset="25%" stop-color="#10B981" stop-opacity="0.65"/>
+      <stop offset="65%" stop-color="#21262D"/>
+      <stop offset="100%" stop-color="#21262D"/>
     </linearGradient>
   </defs>
 
-  <!-- Base Background -->
-  <rect x="0.5" y="0.5" width="839" height="189" rx="8" fill="#0D1117"/>
-  <rect x="0.5" y="0.5" width="839" height="189" rx="8" fill="url(#grid)"/>
-  <rect x="0.5" y="0.5" width="839" height="189" rx="8" fill="url(#glow)"/>
-  <rect x="0.5" y="0.5" width="839" height="189" rx="8" stroke="url(#border-grad)"/>
+  <!-- Graphite Base -->
+  <rect x="0.5" y="0.5" width="859" height="199" rx="8" fill="#0D1117"/>
+  <rect x="0.5" y="0.5" width="859" height="199" rx="8" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="859" height="199" rx="8" fill="url(#emerald-glow)"/>
+  <rect x="0.5" y="0.5" width="859" height="199" rx="8" stroke="#21262D"/>
+  <line x1="8" y1="0.5" x2="852" y2="0.5" stroke="url(#top-accent)" stroke-width="1.5"/>
 
-  <!-- Top Technical Bar -->
-  <text x="36" y="34" fill="#484F58" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5">SYS // PROFILE.01</text>
-  <circle cx="796" cy="30" r="3.5" fill="#3FB950"/>
-  <text x="784" y="34" fill="#6E7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" text-anchor="end" letter-spacing="1">IDN · UTC+7</text>
-  <line x1="36" y1="48" x2="804" y2="48" stroke="#21262D" stroke-width="1"/>
+  <!-- Top Telemetry Bar -->
+  <text x="36" y="34" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="1.2">D4 INFORMATION SYSTEMS · POLITEKNIK STMI JAKARTA</text>
+  <circle cx="742" cy="30" r="3.5" fill="#10B981"/>
+  <text x="754" y="34" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="0.8">JAKARTA, ID</text>
+  <line x1="36" y1="48" x2="824" y2="48" stroke="#21262D" stroke-width="1"/>
 
-  <!-- Main Identity -->
-  <text x="36" y="96" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="-0.5">Fahmi Irfan</text>
-  <text x="36" y="124" fill="#8B949E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">Software Engineer — Web &amp; Mobile Systems</text>
+  <!-- Primary Typography -->
+  <text x="36" y="96" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="-0.6">Fahmi Irfan</text>
+  <text x="36" y="124" fill="#8B949E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">Software Developer — Backend Engineering, Relational Databases &amp; Web Systems</text>
 
-  <!-- Bottom Divider & Spec Strip -->
-  <line x1="36" y1="146" x2="804" y2="146" stroke="#21262D" stroke-width="1"/>
-  <text x="36" y="168" fill="#6E7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="0.5">CORE</text>
-  <text x="84" y="168" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">PHP · Kotlin · Python · JavaScript · MySQL · Git</text>
-  <text x="804" y="168" fill="#6E7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" text-anchor="end">@Yukomyy</text>
+  <!-- Bottom Specification Strip -->
+  <line x1="36" y1="150" x2="824" y2="150" stroke="#21262D" stroke-width="1"/>
+  <rect x="36" y="162" width="54" height="20" rx="4" fill="#0F2922" stroke="#10B981" stroke-opacity="0.4"/>
+  <text x="63" y="176" fill="#10B981" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" text-anchor="middle" letter-spacing="0.8">STACK</text>
+  <text x="104" y="176" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">PHP · Laravel · Java · Kotlin · Python · MySQL · Git</text>
+  <text x="824" y="176" fill="#6E7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" text-anchor="end">github.com/Yukomyy</text>
 </svg>

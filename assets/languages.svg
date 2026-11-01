@@ -1,33 +1,34 @@
-<svg width="412" height="165" viewBox="0 0 412 165" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0.5" y="0.5" width="411" height="164" rx="8" fill="#0D1117" stroke="#21262D"/>
-  <text x="24" y="30" fill="#6E7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.2">02 // CODEBASE DISTRIBUTION</text>
-  <line x1="24" y1="42" x2="388" y2="42" stroke="#21262D" stroke-width="1"/>
+<svg width="420" height="172" viewBox="0 0 420 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="419" height="171" rx="8" fill="#0D1117" stroke="#21262D"/>
+  <circle cx="24" cy="26" r="3" fill="#10B981"/>
+  <text x="34" y="30" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="1.2">REPOSITORY LANGUAGE DISTRIBUTION</text>
+  <line x1="20" y1="42" x2="400" y2="42" stroke="#21262D" stroke-width="1"/>
 
-  <clipPath id="bar">
-    <rect x="24" y="56" width="364" height="8" rx="4"/>
+  <clipPath id="lang-bar">
+    <rect x="20" y="56" width="380" height="8" rx="4"/>
   </clipPath>
-  <g clip-path="url(#bar)">
-    <rect x="24" y="56" width="226" height="8" fill="#E6EDF3"/>
-    <rect x="252" y="56" width="54" height="8" fill="#8B949E"/>
-    <rect x="308" y="56" width="42" height="8" fill="#484F58"/>
-    <rect x="352" y="56" width="36" height="8" fill="#30363D"/>
+  <g clip-path="url(#lang-bar)">
+    <rect x="20" y="56" width="236" height="8" fill="#10B981"/>
+    <rect x="258" y="56" width="58" height="8" fill="#3FB950"/>
+    <rect x="318" y="56" width="44" height="8" fill="#8B949E"/>
+    <rect x="364" y="56" width="36" height="8" fill="#484F58"/>
   </g>
 
-  <rect x="24" y="84" width="8" height="8" rx="2" fill="#E6EDF3"/>
-  <text x="40" y="92" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12">PHP</text>
-  <text x="180" y="92" fill="#6E7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" text-anchor="end">62.1%</text>
+  <rect x="20" y="84" width="8" height="8" rx="2" fill="#10B981"/>
+  <text x="36" y="92" fill="#F0F6FC" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12">PHP / Blade</text>
+  <text x="190" y="92" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" text-anchor="end">62.1%</text>
 
-  <rect x="24" y="112" width="8" height="8" rx="2" fill="#8B949E"/>
-  <text x="40" y="120" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12">Kotlin</text>
-  <text x="180" y="120" fill="#6E7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" text-anchor="end">15.0%</text>
+  <rect x="20" y="112" width="8" height="8" rx="2" fill="#3FB950"/>
+  <text x="36" y="120" fill="#F0F6FC" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12">Kotlin / Java</text>
+  <text x="190" y="120" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" text-anchor="end">15.0%</text>
 
-  <rect x="220" y="84" width="8" height="8" rx="2" fill="#484F58"/>
-  <text x="236" y="92" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12">Python</text>
-  <text x="388" y="92" fill="#6E7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" text-anchor="end">11.0%</text>
+  <rect x="220" y="84" width="8" height="8" rx="2" fill="#8B949E"/>
+  <text x="236" y="92" fill="#F0F6FC" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12">Python</text>
+  <text x="400" y="92" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" text-anchor="end">11.0%</text>
 
-  <rect x="220" y="112" width="8" height="8" rx="2" fill="#30363D"/>
-  <text x="236" y="120" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12">JS / CSS</text>
-  <text x="388" y="120" fill="#6E7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" text-anchor="end">11.9%</text>
+  <rect x="220" y="112" width="8" height="8" rx="2" fill="#484F58"/>
+  <text x="236" y="120" fill="#F0F6FC" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12">SQL / CSS / JS</text>
+  <text x="400" y="120" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" text-anchor="end">11.9%</text>
 
-  <text x="24" y="148" fill="#484F58" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">INDEXED ACROSS PUBLIC REPOSITORIES</text>
+  <text x="20" y="150" fill="#6E7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">VERIFIED ACROSS PUBLIC &amp; ACADEMIC REPOSITORIES</text>
 </svg>
