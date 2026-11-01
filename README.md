@@ -13,8 +13,6 @@ Software Developer specializing in web applications, backend systems, and mobile
 | **Platforms & Tools** | Git, GitHub, Android Studio, Visual Studio Code, Postman, Apache, Linux |
 | **Specializations** | Full-Stack Web Development, POS & Enterprise Solutions, Mobile Applications, Relational Database Design |
 
-<br>
-
 <p align="left">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
@@ -48,8 +46,8 @@ Interactive data visualization platform analyzing macroeconomic performance indi
 ### GitHub Activity Overview
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Yukomyy&show_icons=true&hide_border=true&theme=default&title_color=0969da&icon_color=0969da&text_color=57606a" alt="GitHub Stats" height="155" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yukomyy&layout=compact&hide_border=true&theme=default&title_color=0969da&text_color=57606a" alt="Top Languages" height="155" />
+  <img src="./assets/overview.svg" alt="Engineering Focus & Metrics" width="49%" />
+  <img src="./assets/languages.svg" alt="Language Distribution" width="49%" />
 </p>
 
 ---
